@@ -34,10 +34,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  background: white;
+  background: #fff;
   width: 50vw;
   height: 50px;
-  border: none;
+  border: 1px dashed #fff;
   border-radius: 25px;
   padding: 0 15px;
   text-decoration: none;
@@ -57,44 +57,8 @@ body {
   background: linear-gradient(135deg, #00f2ea, #000000, #ff0050);
 }
 
-instagram::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(90deg, #feda75, #d62976, #962fbf, #4f5bd5);
-  z-index: 0; 
-  border-radius: 25px; 
-}
-
-telegram::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(90deg, #0088cc, #e0f7ff);
-  z-index: 0;
-  border-radius: 25px; 
-}
-
-tiktok::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(90deg, #00f2ea, #000000, #ff0050);
-  z-index:0; 
-  border-radius: 25px;
-}
-
 .ico {
-  font-size: 24px;
+  font-size: 28px;
 }
 
 .btn span {
@@ -110,13 +74,3 @@ tiktok::after {
   text-shadow: 1px 1px 2px black;
 }
 
-@media (max-width: 768px) {
-  .wrapper {
-    justify-content: flex-end;
-    padding: 10px;
-  }
-
-  .container {
-    align-items: flex-end;
-  }
-}
