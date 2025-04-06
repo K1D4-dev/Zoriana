@@ -37,6 +37,7 @@ body {
   background: white;
   width: 50vw;
   height: 50px;
+  border: none;
   border-radius: 25px;
   padding: 0 15px;
   text-decoration: none;
