@@ -30,7 +30,7 @@ body {
 }
 
 .btn {
-  font-size: 20px;
+  font-size: 16px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -58,7 +58,7 @@ body {
 }
 
 .ico {
-  font-size: 28px;
+  font-size: 20px;
 }
 
 .btn span {
