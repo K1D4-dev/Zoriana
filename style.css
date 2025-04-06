@@ -64,7 +64,7 @@ instagram::after {
   right: 0;
   bottom: 0;
   background: linear-gradient(90deg, #feda75, #d62976, #962fbf, #4f5bd5);
-  z-index: -1; 
+  z-index: 0; 
   border-radius: 25px; 
 }
 
@@ -76,7 +76,7 @@ telegram::after {
   right: 0;
   bottom: 0;
   background: linear-gradient(90deg, #0088cc, #e0f7ff);
-  z-index: -1;
+  z-index: 0;
   border-radius: 25px; 
 }
 
@@ -88,7 +88,7 @@ tiktok::after {
   right: 0;
   bottom: 0;
   background: linear-gradient(90deg, #00f2ea, #000000, #ff0050);
-  z-index: -1; 
+  z-index:0; 
   border-radius: 25px;
 }
 
