@@ -36,10 +36,10 @@ body {
   justify-content: flex-start;
   background: #fff;
   width: 50vw;
-  height: 50px;
+  height: 40px;
   border: 1px solid #fff;
-  border-radius: 25px;
-  padding: 0 15px;
+  border-radius: 20px;
+  padding: 0 10px;
   text-decoration: none;
   color: #fff;
   font-weight: bold;
