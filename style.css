@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url('IMG.png') no-repeat center right fixed;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 15px;
+}
+
+.btn {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background: white;
+  width: 250px;
+  height: 50px;
+  border-radius: 100px;
+  padding: 0 15px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+.instagram {
+  background: linear-gradient(45deg, #feda75, #d62976, #962fbf, #4f5bd5);
+}
+
+.telegram {
+  background: linear-gradient(45deg, #0088cc, #e0f7ff);
+}
+
+.tiktok {
+  background: linear-gradient(45deg, #00f2ea, #000000, #ff0050);
+}
+
+.ico {
+  font-size: 24px;
+}
+
+.btn span {
+  flex: 1;
+  text-align: center;
+}
+
+.note {
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  width: 250px;
+  text-shadow: 1px 1px 2px black;
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    justify-content: flex-end;
+    padding: 10px;
+  }
+
+  .container {
+    align-items: flex-end;
+  }
+}
