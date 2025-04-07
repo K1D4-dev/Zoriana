@@ -69,10 +69,10 @@ body {
 }
 
 .note {
-  color: white;
+  color: #000;
   font-size: 12px;
   text-align: center;
   width: 45vw;
-  text-shadow: 1px 1px 2px black;
+  text-shadow: 1px 1px 2px #fff;
 }
 
