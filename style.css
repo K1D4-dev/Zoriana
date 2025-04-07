@@ -3,6 +3,7 @@
 }
 
 body {
+  
   margin: 0;
   font-family: Arial, sans-serif;
   background: url('IMG.png') no-repeat center right fixed;
@@ -11,6 +12,7 @@ body {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  overflow: hidden
 }
 
 .wrapper {
